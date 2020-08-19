@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/send_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="@dimen/item_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        android:layout_marginEnd="@dimen/item_margin"
+        android:layout_marginBottom="@dimen/item_margin"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:background="@color/send_text_bg"
+        android:gravity="start"
+        android:hint="@string/edit_your_msg"
+        android:inputType="text"
+        android:text="@string/null_string"
+        android:elevation="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/angry_red"
+            style="@style/color_btn"
+            android:background="@drawable/color_btn"/>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:background="@drawable/shadow"
+            android:elevation="6dp"
+            android:text="@string/send_button"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

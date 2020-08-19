@@ -1,0 +1,13 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--配置图片 drawable
+        配置颜色color-->
+    <!--按下-->
+    <item android:drawable="@drawable/btn_bg_red"
+        android:state_pressed="true"/>
+    <!--无效状态下-->
+    <item android:drawable="@drawable/btn_bg_red"
+        android:state_enabled="false"/>
+    <!--正常状态下-->
+    <item android:drawable="@drawable/btn_bg_white"/>
+</selector>
